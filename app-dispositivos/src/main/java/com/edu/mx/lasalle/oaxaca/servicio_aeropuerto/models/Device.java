@@ -1,7 +1,6 @@
 package com.edu.mx.lasalle.oaxaca.servicio_aeropuerto.models;
 
 import java.util.Set;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
