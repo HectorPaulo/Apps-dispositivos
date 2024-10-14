@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ServicioAeropuertoApplication<servicio-aeropuerto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.edu.mx.lasalle.oaxaca.servicio_aeropuerto.ServicioAeropuertoApplication",
+            "projectName": "servicio-aeropuerto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
