@@ -28,7 +28,7 @@ public class DeviceController {
         device.setManufacturero(deviceDetails.getManufacturero());
         device.setAno(deviceDetails.getAno());
         device.setSo(deviceDetails.getSo());
-        device.setEsRoot(deviceDetails.EsRoot());
+        device.setEsRoot(deviceDetails.isEsRoot());
         final Device updatedDevice = deviceRepository.save(device);
         return ResponseEntity.ok(updatedDevice);
     }

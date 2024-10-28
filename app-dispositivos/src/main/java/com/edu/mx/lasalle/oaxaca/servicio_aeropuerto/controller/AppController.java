@@ -27,7 +27,7 @@ public class AppController {
         app.setNombre(appDetails.getNombre());
         app.setVersion(appDetails.getVersion());
         app.setDevices(appDetails.getDevices());
-        app.setIsActive(appDetails.isActivo());
+        app.setActivo(appDetails.isActivo());
         app.setRating(appDetails.getRating());
         final App updatedApp = appRepository.save(app);
         return ResponseEntity.ok(updatedApp);

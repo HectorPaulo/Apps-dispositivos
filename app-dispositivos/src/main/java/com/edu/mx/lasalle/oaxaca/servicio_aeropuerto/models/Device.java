@@ -1,11 +1,12 @@
 package com.edu.mx.lasalle.oaxaca.servicio_aeropuerto.models;
 
-import java.util.Set;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
+
+import java.util.Set;
 
 @Entity
 public class Device {
@@ -53,7 +54,7 @@ public class Device {
         this.ano = ano;
     }
 
-    public boolean EsRoot() {
+    public boolean isEsRoot() {
         return esRoot;
     }
 
